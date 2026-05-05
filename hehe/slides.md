@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 <ChapterOverviewSlide />
@@ -9,6 +10,8 @@
 }
 </style>
 ---
+layout: default
+---
 
 <IterAlgoIntroSlide />
 
@@ -18,6 +21,8 @@
 }
 </style>
 
+---
+layout: default
 ---
 
 <IterBasicSlide />
@@ -91,6 +96,7 @@ h1, h2, h3, p, li, div {
 }
 </style>
 ---
+layout: default
 ---
 
 <AlgorithmSlide theme="indigo" badge="4.1.1" title="递推法" subtitle="Fibonacci 递推 &middot; 循环不变式" />
@@ -277,6 +283,8 @@ main( )
 }
 ```
 
+  </div>
+  <div class="right-col">
 <div class="info-card card-blue">
   <h3>递推迭代表达式</h3>
   <p>1 &emsp; 2 &emsp; 3 &emsp; 4 &emsp; 5 &emsp; 6</p>
@@ -287,9 +295,8 @@ main( )
   <h3>循环不变式</h3>
   <p><b>a = a + b;&emsp; b = a + b;</b></p>
 </div>
-    </div>
-    <div class="right-col">
-      <img src="./img/ans1.png" class="side-image" />
+
+<img src="./img/ans1.png" class="code-image" />
     </div>
   </div>
 </div>
@@ -333,18 +340,21 @@ main( )
 
 .right-col {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+  overflow-y: auto;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   padding: 2vh;
+  margin-top: calc(-3.6rem - 3vh);
 }
 
-.side-image {
+.code-image {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 26vh;
   object-fit: contain;
+  border-radius: 8px;
 }
 
 .info-card {
@@ -394,6 +404,8 @@ main( )
 </style>
 
 ---
+layout: default
+---
 
 <GCDIntroSlide />
 
@@ -425,6 +437,8 @@ const gcdPoints = [
 ]
 const gcdCode = "main()\n{ int a, b;\n  input(a,b);\n  if(b=0)\n  {   print(\"data error\");\n      return;\n  }\n  else\n  {    c = a mod b;\n       while c<>0\n       {   a=b;b=c;\n           c=a mod b;\n       }\n  }\n  print(b);\n}"
 </script>
+---
+layout: default
 ---
 
 <BacktrackIntroSlide />
@@ -554,6 +568,9 @@ image: img/01.jpg
 </CardGridSlide>
 
 ---
+layout: image
+image: img/02.png
+---
 
 <CardGridSlide badge="4.1.2" title="倒推法">
   <template #left>
@@ -561,11 +578,11 @@ image: img/01.jpg
       <div class="card-head teal">变量定义</div>
       <div class="card-inner">
         <div class="var-list" style="gap:0.3rem;margin-bottom:0">
-          <div class="var-item"><span class="var-sym">k</span> : 从a加满油向b出发的次数</div>
-          <div class="var-item"><span class="var-sym">2k-1</span>: a-b之间的来回次数</div>
-          <div class="var-item"><span class="var-sym">x</span>: a-b之间距离</div>
-          <div class="var-item"><span class="var-sym">S1</span>: a加油点的储油量</div>
-          <div class="var-item"><span class="var-sym">S2</span>: b加油点的储油量</div>
+          <div class="var-item"><span class="var-sym">k: 从a加满油向b出发的次数</span></div>
+          <div class="var-item"><span class="var-sym">2k-1: a-b之间的来回次数</span></div>
+          <div class="var-item"><span class="var-sym">x: a-b之间距离</span></div>
+          <div class="var-item"><span class="var-sym">S1: a加油点的储油量</span></div>
+          <div class="var-item"><span class="var-sym">S2: b加油点的储油量</span></div>
         </div>
       </div>
     </div>
@@ -585,15 +602,15 @@ image: img/01.jpg
       <div class="card-inner">
         <div class="algo-steps">
           <div class="algo-step">
-            <p class="step-title">第一段：倒数第一个储油点到终点</p>
-            <p class="step-formula">k=1, S2=0, x=500, S1=500</p>
+            <p class="step-title"><span class="var-sym">第一段：倒数第一个储油点到终点</span></p>
+            <p class="step-formula"><span class="var-sym">k=1, S2=0, x=500, S1=500</span></p>
           </div>
           <div class="algo-step">
-            <p class="step-title">第二段：倒数2→1储油点</p>
+            <p class="step-title"><span class="var-sym">第二段：倒数2→1储油点</span></p>
             <p class="step-formula">k=2, S1=1000, x=500/3</p>
           </div>
           <div class="algo-step">
-            <p class="step-title">第三段：倒数3→2储油点</p>
+            <p class="step-title"><span class="var-sym">第三段：倒数3→2储油点</span></p>
             <p class="step-formula">k=3, S1=1500, x=500/5</p>
           </div>
           <div class="algo-step">
@@ -620,6 +637,8 @@ image: img/01.jpg
 
 
 ---
+layout: default
+---
 
 <IterEquationIntroSlide />
 
@@ -630,9 +649,13 @@ image: img/01.jpg
 </style>
 
 ---
+layout: default
+---
 
 <IterEquationSlide />
 
+---
+layout: default
 ---
 
 <NewtonFormulaSlide />
