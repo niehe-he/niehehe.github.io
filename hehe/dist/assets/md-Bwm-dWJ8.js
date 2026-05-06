@@ -1,0 +1,5 @@
+import{C as e,D as t,Q as n,S as r,_ as i,_t as a,g as o,yt as s,z as c}from"./modules/shiki-6zKt31MM.js";import{et as l,tt as u}from"./index-DcA2QAo4.js";import{t as d}from"./slidev/default--uA3WaJ5.js";import{t as f}from"./AlgorithmSlide-CkR3KyXu.js";var p={__name:`slides.md__slidev_13`,setup(p){let{$slidev:m,$nav:h,$clicksContext:g,$clicks:_,$page:v,$renderContext:y,$frontmatter:b}=u();return g.setup(),(u,p)=>{let m=f;return c(),i(d,s(t(a(l)(a(b),12))),{default:n(()=>[e(m,{theme:`purple`,badge:`4.1.2`,title:`倒推法`,titleSub:`杨辉三角`},{right:n(()=>[...p[0]||=[o(`div`,{class:`card image-card`,style:{flex:`1`,"min-height":`0`}},[o(`div`,{class:`card-glow`}),o(`div`,{class:`card-inner`},[o(`div`,{class:`card-label`},[o(`span`,{class:`label-dot img-dot`}),r(`输出结果`)]),o(`div`,{class:`img-wrap`},[o(`img`,{src:`/assets/ans4-QE7KYYIF.png`,alt:`输出结果`})])])],-1),o(`div`,{class:`card`,style:{"flex-shrink":`0`}},[o(`div`,{class:`card-glow`}),o(`div`,{class:`card-inner`},[o(`div`,{class:`card-label`},[o(`span`,{class:`label-dot out-dot`}),r(`杨辉三角`)]),o(`pre`,{class:`output-text`},`1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1`)])],-1)]]),_:1})]),_:1},16)}}};export{p as default};
