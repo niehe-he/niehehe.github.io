@@ -136,7 +136,7 @@ image: img/01.jpg
         </table>
       </Card>
       <div class="image-box">
-        <img src="./img/ans1.png" alt="算法执行过程" />
+        <img src="/img/ans1.png" alt="算法执行过程" />
       </div>
     </div>
   </div>
@@ -296,7 +296,7 @@ main( )
   <p><b>a = a + b;&emsp; b = a + b;</b></p>
 </div>
 
-<img src="./img/ans1.png" class="code-image" />
+<img src="/img/ans1.png" class="code-image" />
     </div>
   </div>
 </div>
@@ -426,7 +426,7 @@ image: img/02.png
   :points="gcdPoints"
   :code="gcdCode"
   codeTitle="C 实现"
-  imageSrc="./img/ans2.png"
+  imageSrc="/img/ans2.png"
 />
 
 <script setup>
@@ -776,7 +776,7 @@ layout: default
 layout: default
 ---
 
-<AlgorithmSlide theme="pink" title="方程求解" titleSub="二分逼近法" imageSrc="./img/ans7.png">
+<AlgorithmSlide theme="pink" title="方程求解" titleSub="二分逼近法" imageSrc="/img/ans7.png">
   <template #left="{ imageSrc }">
     <div class="card equation-card">
       <div class="card-glow"></div>
