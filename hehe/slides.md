@@ -336,6 +336,7 @@ main( )
   flex-direction: column;
   gap: 2vh;
   overflow-y: auto;
+  min-height: 0;
 }
 
 .right-col {
@@ -390,16 +391,19 @@ main( )
 }
 .card-amber h3 { color: #d97706; }
 
-:deep(pre) {
+.left-col :deep(pre) {
   background: #1e1e1e !important;
   border-radius: 12px;
   padding: 1rem 1.3rem !important;
   margin: 0;
+  overflow: auto;
+  min-height: 0;
 }
 
-:deep(code) {
+.left-col :deep(code) {
   font-size: 0.9rem;
   line-height: 1.7;
+  white-space: pre;
 }
 </style>
 
