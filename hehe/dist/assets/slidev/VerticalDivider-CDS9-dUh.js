@@ -1,1 +1,0 @@
-import{y as e,z as t}from"../modules/shiki-6zKt31MM.js";import{mt as n}from"../index-DcA2QAo4.js";var r={},i={class:`w-1px opacity-10 bg-current m-1 lg:m-2`};function a(n,r){return t(),e(`div`,i)}var o=n(r,[[`render`,a]]);export{o as t};
