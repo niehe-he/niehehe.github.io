@@ -486,6 +486,16 @@ layout: default
           <div class="step"><span class="step-num">...</span><span class="step-desc">依此类推...</span></div>
           <div class="step"><span class="step-num">D1</span><span class="step-desc">1534 个桃子</span></div>
         </div>
+        <div class="code-window" style="flex:1;min-height:0;margin-top:0.3vh">
+          <div class="code-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <pre><code>main( )
+{   int i, s;
+    s = 1;
+    for(i = 9; i >= 1; i = i - 1)
+        s = (s + 1) * 2;
+    print(s);
+}</code></pre>
+        </div>
       </div>
     </div>
   </template>
